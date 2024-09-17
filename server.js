@@ -150,18 +150,18 @@ app.post('/download', (req, res) => {
 
                 // Tambahkan konten PDF
                 const text1 = "PESERTA WISUDA SARJANA (S1) DAN PASCASARJANA (S2 & S3)";
-                const text2 = "UNIVERSITAS PASUNDAN GELOMBANG II TAHUN AKADEMIK 2023/2024";
+                const text2 = "UNIVERSITAS PASUNDAN GELOMBANG I TAHUN AKADEMIK 2024/2025";
 
                 const text3 = "Sekretariat: Jl. Tamansari No. 4-8 Bandung, Call Center: 0811960193, Email: rektorat@unpas.ac.id";
                 const text4 = "Email: rektorat@unpas.ac.id Website: www.unpas.ac.id";
 
-                const text5 = "Selamat Anda telah terdaftar sebagai Peserta Wisuda Universitas Pasundan Gelombang II";
-                const text6 = "Tahun Akademik 2023/2024, dengan data sebagai berikut:";
+                const text5 = "Selamat Anda telah terdaftar sebagai Peserta Wisuda Universitas Pasundan Gelombang I";
+                const text6 = "Tahun Akademik 2024/2025, dengan data sebagai berikut:";
 
                 const text7 = "DATA WISUDAWAN/WISUDAWATI";
 
                 const text8 = "Surat Keterangan ini bisa digunakan sebagai bukti untuk pengambilan perlengkapan Peserta";
-                const text9 = "Wisuda Universitas Pasundan Gelombang II Tahun Akademik 2023/2024.";
+                const text9 = "Wisuda Universitas Pasundan Gelombang I Tahun Akademik 2024/2025.";
 
                 const text10 = "Ceklis pengambilan perlengkapan wisuda:";
                 const text11 = "[  ] Toga";
@@ -169,8 +169,8 @@ app.post('/download', (req, res) => {
                 const text13 = "[  ] Undangan Wisuda";
 
                 const lokasiWisuda = "Sasana Budaya Ganesha (SABUGA)";
-                const waktuGladi = "Jumat, 17 Mei 2024, 13.30 WIB s.d. Selesai";
-                const waktuPelaksanaan = "Sabtu, 18 Mei 2024, 07.00 WIB s.d. Selesai";
+                const waktuGladi = "Jumat, 8 November 2024, 13.30 WIB s.d. Selesai";
+                const waktuPelaksanaan = "Sabtu, 9 November 2024, 07.00 WIB s.d. Selesai";
 
                 doc.registerFont('Arial Font', 'fonts/arial.ttf');
                 doc.registerFont('Arial Bold Font', 'fonts/arial-bold.ttf');
@@ -245,5 +245,5 @@ app.post('/download', (req, res) => {
 });
 
 
-const PORT = process.env.PORT || 8001;
+const PORT = process.env.PORT || 3003;
 app.listen(PORT, () => console.log(`Server started on port ${PORT}`));

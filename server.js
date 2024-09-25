@@ -167,6 +167,7 @@ app.post('/download', (req, res) => {
                 const text11 = "[  ] Toga";
                 const text12 = "[  ] Pin";
                 const text13 = "[  ] Undangan Wisuda";
+                const text14 = "[  ] Tracer Study";
 
                 const lokasiWisuda = "Sasana Budaya Ganesha (SABUGA)";
                 const waktuGladi = "Jumat, 8 November 2024, 13.30 WIB s.d. Selesai";
@@ -229,6 +230,7 @@ app.post('/download', (req, res) => {
                 doc.fontSize(11).text(text11, 74, 575, { align: 'left' });
                 doc.fontSize(11).text(text12, 74, 595, { align: 'left' });
                 doc.fontSize(11).text(text13, 74, 612, { align: 'left' });
+                doc.fontSize(11).text(text14, 74, 629, { align: 'left' });
 
                 doc.fontSize(11).text(`Bandung, ${today}`, 426, 688, { align: 'left', lineBreak: false });
                 doc.fontSize(11).text('Panitia', 447, 757, { align: 'left' });
